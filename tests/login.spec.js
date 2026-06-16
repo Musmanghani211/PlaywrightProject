@@ -15,5 +15,3 @@ await page.locator ('#password').fill ('secret_sauce');
 await page.locator('#login-button').click();
 await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
 })
-
-//master added comment to check merge conflict
