@@ -16,9 +16,7 @@ await page.locator('#login-button').click();
 await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
 })
 
-<<<<<<< HEAD
 //master added comment to check merge conflict
-=======
 
 //this comment is added on login-tests-branch
->>>>>>> Login-tests-branch
+
