@@ -7,6 +7,8 @@ await expect(page).toHaveTitle('Fast and reliable end-to-end testing for modern 
 
 })
 
+//this is comment to check the merge conflict on github
+
 test ('verify the user is unable to login with valid email', async ({page}) => {
 
 await page.goto ('https://www.saucedemo.com/');
@@ -19,4 +21,3 @@ await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
 //master added comment to check merge conflict
 
 //this comment is added on login-tests-branch
-
