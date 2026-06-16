@@ -21,3 +21,6 @@ await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
 //master added comment to check merge conflict
 
 //this comment is added on login-tests-branch
+
+
+// this is added to test merge conflict on github
